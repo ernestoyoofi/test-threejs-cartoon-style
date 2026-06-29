@@ -29,7 +29,7 @@ const outlineMaterial = createOutlineMaterial();
 // List Public Model
 const listFile = ["ShirokoModelTest.glb", "KeiModelTest.glb"]
 // const basePath = location.host === "localhost:5173" ? "/" : "https://storage-yog04.yupibknpermen.my.id/3d-model-test-env/"
-const basePath = location.host === "localhost:5173" ? "/" : "/test-threejs-cartoon-style"
+const basePath = location.host === "localhost:5173" ? "/" : "/test-threejs-cartoon-style/"
 
 function ModelGlb({ modelFile }) {
   const group = useRef()
